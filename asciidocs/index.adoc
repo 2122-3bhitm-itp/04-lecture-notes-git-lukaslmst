@@ -50,7 +50,3 @@ this key you use instead of your Github password for loggin in in your terminal.
 ** cause some classic errors
 
 
-
-
-==
-
