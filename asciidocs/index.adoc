@@ -1,0 +1,56 @@
+= Lecture Notes
+Lukas Lummerstorfer
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Github login via ssh:
+
+* Go to your account
+* go to setting
+* developer settings
+
+** Click on Personal access token
+** generate new token
+** enter your password then
+** type in a note and then generate the token
+** now you get a personal access key
+
+this key you use instead of your Github password for loggin in in your terminal.
+
+=== SSH
+
+* ssh-keygen -t ed25519 -C "your_email@example.com"
+* Hit enter to use the default settings for the file name/path to save your key
+* We can now add the ssh public key to Github. We can cat the public key then copy it or open the public key in a text editor and then copy it.
+* In Github: Click on Settings on the drop-down
+* Click on SSH and GPG keys
+* Click New SSH key or Add SSH key.
+* now you can add a title and then paste in the public key
+* Then click on add SSH Key and we are done adding ssh key to Github
+
+== Tuesday 20. December
+
+* create a repo
+* invite a member
+* try some simple git commands
+
+** create a README.md
+** edit the README.md
+** push and pull the README.md
+** cause some classic errors
+
+
+
+
+==
+
